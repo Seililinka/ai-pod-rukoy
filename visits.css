@@ -1,0 +1,28 @@
+.book-visits {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 26px;
+  margin-top: 16px;
+}
+.book-visits a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 26px;
+  border-radius: 5px;
+}
+.book-visits img {
+  display: block;
+  max-width: 100%;
+  height: 22px;
+  border: 0;
+  border-radius: 4px;
+}
+.book-visits span {
+  font-size: 11px;
+  color: var(--muted, #67718a);
+}
+@media print {
+  .book-visits { display: none !important; }
+}
